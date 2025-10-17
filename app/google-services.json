@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "932244185279",
+    "project_id": "loginfirebase-fb03e",
+    "storage_bucket": "loginfirebase-fb03e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932244185279:android:1548f757da98ebd2a5260a",
+        "android_client_info": {
+          "package_name": "co.edu.unab.noelmendez.unabshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-GxQ1rObinWBL7LX-FdB5Kx-vICpAagk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
