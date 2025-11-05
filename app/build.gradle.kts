@@ -60,13 +60,10 @@ dependencies {
 
     //navigation compose
     implementation (libs.androidx.navigation.compose)
-
-    //firebase
-    implementation(libs.firebase.bom)
-
-    //auth
-    implementation(libs.firebase.auth)
-
-
+// Firebase
+    implementation(platform(libs.firebase.bom.v3330))
+    implementation(libs.firebase.analytics.ktx)
+    implementation(libs.firebase.firestore.ktx)
+    implementation(libs.firebase.auth.ktx)
 
 }

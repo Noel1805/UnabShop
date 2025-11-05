@@ -1,12 +1,11 @@
 package co.edu.unab.noelmendez.unabshop
 
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.internal.composableLambda
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.google.firebase.auth.auth
-import com.google.firebase.ktx.Firebase
+
 
 @Composable
 fun NavegationApp(){
@@ -51,10 +50,10 @@ fun NavegationApp(){
         }
         composable("home"){
             HomeScreen(onClickLogout = {
-                myNavController.navigate("login"){
+                myNavController.navigate("login") {
                     popUpTo(0)
                 }
             })
-            }
         }
+    }
 }

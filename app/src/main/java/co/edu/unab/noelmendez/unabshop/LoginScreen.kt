@@ -1,6 +1,5 @@
 package co.edu.unab.noelmendez.unabshop
 
-import android.R.attr.bottom
 import android.app.Activity
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -51,7 +50,6 @@ import com.google.firebase.auth.FirebaseAuthInvalidUserException
 import com.google.firebase.auth.auth
 
 @Preview
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LoginScreen(onClickRegister:()-> Unit = {}, onSuccesfulogin: () -> Unit ={}) {
 
@@ -232,6 +230,6 @@ fun LoginScreen(onClickRegister:()-> Unit = {}, onSuccesfulogin: () -> Unit ={})
                     color = Color(0xFFFF9900)
                 )
             }
-            }
         }
+    }
 }
